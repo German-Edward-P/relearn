@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    padding: 22px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin: auto;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-decoration: none; 
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #202020
+
+}
+
+.link {
+    text-decoration: none;  
+    margin-right: 11px;
+    margin-left: 11px;
+    color: #202020
+}
+
+.login {
+    text-decoration: none;
+    color: #202020
+}
+
+.hero {
+    padding: 65px 0px;
+    margin-top: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    margin: auto;
+}
+
+.image-wrapper {
+    position: relative;
+    margin-right: 125px;
+}
+
+.image-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 23px;
+    z-index: 3;
+    width: 135px;
+    height: 42px;
+    background-color: #c93535;
+}
+
+.image-span {
+    color: white;
+    text-transform: capitalize;
+
+}
+.author {
+    font-size: 24px;
+}
+
+.title {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.subtitle {
+    display: block;
+    width: 365px;
+    font-size: 24px;
+    margin-bottom: 55px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    margin-bottom: 50px;
+}
+.year, .cover, .edition, .age {
+    font-size: 16px;
+}
+
+.year, .cover {
+    flex-basis: 45%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    margin-bottom: 50px;
+}
+
+.price-tag {
+    font-size: 55px;
+}
+
+.favorites {
+    display: flex;
+    align-items: center;
+    
+}
+
+.heart {
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+}
+
+.button {
+    width: 250px;
+    height: 58px;
+    background-color: #f89c02;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.hero-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 58px;
+    border: 2px solid #f89c02;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f89c02;
+    
+}
+
+.about {
+    padding: 93px 0;
+    background-color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #202020;
+    line-height: 24px;
+}
+.about-book {
+    max-width: 450px;
+}
+.about-author {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 550px;
+    padding: 65px 49px 82px 49px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.author-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.author-link {
+    text-decoration: none;
+    color: #202020;
+}
+.about-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+
+.readers-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.readers {
+    padding: 88px 0 104px 0;
+}
+
+.readers-image {
+    width: 165px;
+    height: 165px;
+}
+.readers-container {
+    width: 1140px;
+    margin: auto;
+    /* padding: 88px 0 104px 0; */
+}
+
+.readers-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 360px;
+}
+
+.footer {
+    padding: 50px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.footer-item {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-link {
+    display: table;
+    align-self: flex-end;
+    padding: 17px 18px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
